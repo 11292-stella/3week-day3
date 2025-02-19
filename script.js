@@ -14,4 +14,20 @@ modificaForm.addEventListener("submit", (e) => {
     age: ageInput.value,
   }
   console.log(result)
+
+  const infoAggiunte = document.createElement(`div`)
+  infoAggiunte.classList.add(`stampa`)
+  infoAggiunte.innerHTML = `
+  <p>${result.firstname} ${result.lastname}</p>
+  <p>${result.phone} ${result.age}<p>
+  
+  <button onclick="deleteCard(event)">Elimina</button>
+  `
+
+  const AggiunteDiv = document.getElementById("Risultati-salva")
+  AggiunteDiv.appendChild(infoAggiunte)
 })
+
+function deleteCard(event) {
+  event.target.parentElement.remove()
+}

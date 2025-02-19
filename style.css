@@ -11,3 +11,25 @@
     background-color: rgb(172, 133, 208);
     
 }
+
+.stampa {
+  background-color: rgb(213, 108, 223);
+  text-align: center;
+  background-image: url("https://placedog.net/300/300");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  color: white;
+  margin-top: 30px;
+}
+
+body {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
