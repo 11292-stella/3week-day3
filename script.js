@@ -31,3 +31,7 @@ modificaForm.addEventListener("submit", (e) => {
 function deleteCard(event) {
   event.target.parentElement.remove()
 }
+
+function deleteCard(event) {
+  event.target.closest(".stampa").remove()
+}
