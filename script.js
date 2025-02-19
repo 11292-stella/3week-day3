@@ -18,8 +18,12 @@ modificaForm.addEventListener("submit", (e) => {
   const infoAggiunte = document.createElement(`div`)
   infoAggiunte.classList.add(`stampa`)
   infoAggiunte.innerHTML = `
-  <p>${result.firstname} ${result.lastname}</p>
-  <p>${result.phone} ${result.age}<p>
+  <p>${result.firstname} </p>
+  <p>${result.lastname}</p>
+  <p>${result.phone} </p>
+  <p>${result.age}</p
+  
+  
   
   <button onclick="deleteCard(event)">Elimina</button>
   `
