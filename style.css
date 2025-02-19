@@ -1,0 +1,13 @@
+#listaComp input{
+    border-radius: 12px;
+    margin-top: 4px;
+    margin-left: 3px;
+}
+
+#bottone {
+    border-radius: 12px;
+    margin-top: 5px;
+    margin-left: 50px;
+    background-color: rgb(172, 133, 208);
+    
+}
