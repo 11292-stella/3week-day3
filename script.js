@@ -21,10 +21,7 @@ modificaForm.addEventListener("submit", (e) => {
   <p>${result.firstname} </p>
   <p>${result.lastname}</p>
   <p>${result.phone} </p>
-  <p>${result.age}</p
-  
-  
-  
+  <p>${result.age}</p>
   <button onclick="deleteCard(event)">Elimina</button>
   `
 
